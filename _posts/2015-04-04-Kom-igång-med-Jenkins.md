@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wikis som Git-repositories hos Bitbucket
+title: Kom igång med Jenkins
 ---
 
 I den här artikeln kommer jag att beskriva hur man kommer igång med att använda Jenkins tillsammans med .NET. Som exempel kommer jag att använda en enkel webbapplikation skriven i ASP.NET MVC 5 och i slutet av artikeln så visar jag även hur man kan publicera denna applikation via FTP.
