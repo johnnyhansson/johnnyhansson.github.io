@@ -52,7 +52,7 @@ I det här exemplet så ska vi skapa ett installationspaket för en exempelappli
 
 Öppna Visual Studio och gå till File - New - Project (Ctrl + Shift + N). Välj Templates – Visual C# - Console Application.
 
-<a href="http://johnnyhansson.com/wp-content/uploads/2016/01/NewConsoleApplication.png" rel="attachment wp-att-121"><img class="alignnone size-large wp-image-121" src="http://johnnyhansson.com/wp-content/uploads/2016/01/NewConsoleApplication-1024x710.png" alt="NewConsoleApplication" width="660" height="458" /></a>
+<img src="/images/Get-Started-With-WiX-Toolset/NewConsoleApplication.png" alt="NewConsoleApplication" width="660" height="458" />
 
 Klistra in följande kod i Program.cs som skapats i konsolprojektet.
 
@@ -74,7 +74,7 @@ namespace ExampleApplication
 
 Högerklicka på Solution-noden och välj Add – New Project… Den här gången så väljer du Templates – Windows Installer XML – Setup Project.
 
-<a href="http://johnnyhansson.com/wp-content/uploads/2016/01/NewSetupProject.png" rel="attachment wp-att-124"><img class="alignnone size-large wp-image-124" src="http://johnnyhansson.com/wp-content/uploads/2016/01/NewSetupProject-1024x710.png" alt="NewSetupProject" width="660" height="458" /></a>
+<img src="/images/Get-Started-With-WiX-Toolset/NewSetupProject.png" alt="NewSetupProject" width="660" height="458" />
 
 När projektet skapats så återfinns en fil som heter Product.wxs med följande innehåll.
 
@@ -228,7 +228,7 @@ Detta element kan ses som en generisk container där andra typer av element kan 
 
 För att skapa en ny wxs-fil med ett Fragement-element i så högerklickar man på sitt installationsprojekt, väljer Add och sedan New Item… Markera sedan valet Installer File och ge den nya filen ett passande namn, exempelvis Directories.wxs.
 
-<a href="http://johnnyhansson.com/wp-content/uploads/2016/01/NewFragement.png" rel="attachment wp-att-125"><img class="alignnone size-large wp-image-125" src="http://johnnyhansson.com/wp-content/uploads/2016/01/NewFragement-1024x710.png" alt="NewFragement" width="660" height="458" /></a>
+<img src="/images/Get-Started-With-WiX-Toolset/NewFragement.png" alt="NewFragement" width="660" height="458" />
 
 När den nya filen skapats så placerar man de element som man vill flytta inuti Fragment-elementet. I exemplet nedan så visas hur katalogstrukturen för installationspaketet flyttats till sin egen fil. Trots att deklarationerna flyttats utanför Product.wxs så kommer projektet att bygga normalt.
 
@@ -293,7 +293,7 @@ För att möjliggöra detta så behöver man utföra två saker.
 <ol>
 	<li>Lägga till en referens i installationsprojektet till WixUIExtensions.dll. Denna återfinns i bin-katalogen där du installerade WiX och innehåller de uppsättningar av dialoger som vi vill använda.</li>
 </ol>
-<a href="http://johnnyhansson.com/wp-content/uploads/2016/01/AddReference.png" rel="attachment wp-att-126"><img class="alignnone size-large wp-image-126" src="http://johnnyhansson.com/wp-content/uploads/2016/01/AddReference-1024x837.png" alt="AddReference" width="660" height="539" /></a>
+<img src="/images/Get-Started-With-WiX-Toolset/AddReference.png" alt="AddReference" width="660" height="539" />
 
 Högerklicka på References i installationsprojektet och välj Add Reference…
 
