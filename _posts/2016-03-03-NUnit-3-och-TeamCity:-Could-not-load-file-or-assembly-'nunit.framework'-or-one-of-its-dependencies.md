@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NUnit 3 och TeamCity: Could not load file or assembly 'nunit.framework' or one of its dependencies
+title: NUnit 3 och TeamCity Could not load file or assembly 'nunit.framework' or one of its dependencies
 ---
 
 Under dagen har jag varit sysselsatt med att flytta en installation av TeamCity från en maskin som vi använt för utvärderingssyfte till en virtuell maskin på Azure. Själva flytten var inget problem, men en av byggkonfigurationerna som kör enhetstester kunde inte köras korrekt. Istället misslyckades körningen av testerna med felmeddelandet
