@@ -2,7 +2,7 @@
 layout: post
 title: Kom igång med WiX Toolset
 tags:
--WiX Toolset
+ WiX Toolset
 ---
 
 Denna guide är tänkt att fungera som ett underlag för den som inte har någon tidigare erfarenhet av WiX, men som är intresserad av lära sig några av grunderna. Texten är däremot inte heltäckande, men i slutet av den så finns referenser vart man kan vända sig för att lära sig mer.
