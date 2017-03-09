@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can not find compilation library location for package and NUGET PACKAGES
+title: 'Can not find compilation library location for package' and NUGET_PACKAGES
 categories: .NET Core
 ---
 
