@@ -29,7 +29,7 @@ heroku open -a aspnet-core-on-heroku
 
 When visiting your newly created app it will look like this.
 
-<img src="/images/aspnetcore-on-heroku/newapp.png" />
+<img src="/images/AspNetCore-On-Heroku/newapp.png" />
 
 ### Create the ASP.NET Core app
 
@@ -88,4 +88,4 @@ heroku open -a aspnet-core-on-heroku
 
 Now your published app will look like this. Enjoy!
 
-<img src="/images/aspnetcore-on-heroku/newapp.png" />
+<img src="/images/AspNetCore-On-Heroku/newapp.png" />
