@@ -88,4 +88,4 @@ heroku open -a aspnet-core-on-heroku
 
 Now your published app will look like this. Enjoy!
 
-<img src="/images/AspNetCore-On-Heroku/newapp.png" />
+<img src="/images/AspNetCore-On-Heroku/publishedapp.png" />
