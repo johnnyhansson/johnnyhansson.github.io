@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Control 433 Mhz switch with Raspberry Pi and Google Calendar
+title: Control a 433 Mhz switch with Raspberry Pi and Google Calendar
 categories: Raspberry Pi
 ---
 
